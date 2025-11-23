@@ -2,12 +2,12 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebas
 import { getFirestore, collection, addDoc, onSnapshot, doc, deleteDoc, updateDoc, query, orderBy } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAQoQ_Gcg9TjDVYDAbR638_In-DzsID66I",
-    authDomain: "lista-tareas-compartida-e25f8.firebaseapp.com",
-    projectId: "lista-tareas-compartida-e25f8",
-    storageBucket: "lista-tareas-compartida-e25f8.firebasestorage.app",
-    messagingSenderId: "268668947188",
-    appId: "1:268668947188:web:5d3e649ebb4c090bfbeca1"
+    apiKey: "AIzaSyCm7QRMsqrgnsNRya_Z0EvtL52So-hm3b0",
+    authDomain: "mis-tareas-lite.firebaseapp.com",
+    projectId: "mis-tareas-lite",
+    storageBucket: "mis-tareas-lite.firebasestorage.app",
+    messagingSenderId: "393590605202",
+    appId: "1:393590605202:web:fad9f5b13ecaa3839a2d4b"
 };
 
 // Initialize Firebase
